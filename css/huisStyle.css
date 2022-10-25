@@ -1,0 +1,421 @@
+/*
+Huisstyle kleuren
+  #FFAD4F, rgb(255, 173, 79) Fel Oranje, Primair, evt als achtergrond opacity op 64%
+  #FFE1BE, rgb(255, 225, 190) Licht Oranje 
+*/
+
+
+main {
+  background-color: #FFE1BE;
+}
+/*Home pagina CSS*/
+
+/*navbar CSS*/
+.navbar{
+  padding-top: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #FFAD4F;
+}
+.first-navbar-start{
+  margin-left: 26%;
+  padding-top: 0.3%;
+  width: 50%;
+}
+.searchbar {
+  height: 45px;
+  width: 66%;
+  border-radius: 50px;
+  padding-left: 2%;
+}
+.searchbutton{
+  background: #FFAD4F;
+  border: none;
+}
+.secnavbar{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 1%;
+  background: #FFAD4F;
+}
+
+/*einde navbar CSS*/
+/*CSS voor home veiling knoppen*/
+/*Door Verdi*/
+header > div.columns.level > div > form{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1%;
+}
+/*einde knoppen CSS home*/
+/*einde home pagina CSS*/
+
+/*Kaart effect met pop-up effect voor de producten*/
+/*Door Verdi*/
+main > div.columns.level > div.new-card > article{
+  border:rgba(0, 0, 0, 0.17) solid 0.25px;
+  border-radius: 20px;
+  transition: 0.25s ease-in;  
+  -webkit-transition: 0.25s ease-in;
+  -moz-transition: 0.25s ease-in;
+  -o-transition: 0.25s ease-in;
+  color: white;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+main > div.columns.level > div.new-card > article > h2{
+  color: white;
+}
+
+main > div.columns.level > div.new-card:hover > article {
+  transition: 0.25s ease-out;
+  -webkit-transition: 0.25s ease-out;
+  -moz-transition: 0.25s ease-out;
+  -o-transition: 0.25s ease-out;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.17);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform:  scale(1.05);
+  -o-transform: scale(1.05);
+
+}
+
+main > div.columns.level > div.new-card > article > img{
+  border-radius: 20px;
+}
+
+main >  div.columns.level{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+main > div.columns.level > div.new-card > article > div.overlay{
+  position:absolute;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 0.25s ease;
+}
+
+main > div.columns.level > div.new-card > article:hover > img + div.overlay{
+  height: 75%;
+}
+
+main > div.columns.level > div.new-card > article > div.overlay > p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform:  translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/*Einde kaart met effecten*/
+
+
+/*Footer CSS*/
+footer {
+  position: relative;
+  margin-top: 3%;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background: #FFAD4F !important;
+}
+
+.footer-table{
+  background: #FFAD4F;
+}
+/*Einde footer CSS*/
+
+/*bericht pagina CSS*/
+/*Gemaakt door Verdi en Jesse*/
+main > div.columns.berichten{
+  margin: 5%;
+  margin-top: -.75rem;
+  background: bisque;
+  height: auto;
+  box-shadow: 0 0 10px lightgrey;
+}
+main > div.columns.berichten > div.column{
+  background: antiquewhite;
+  margin: 1%;
+  text-align: center;
+}
+
+main > div.columns.berichten > div > div.select.is-multiple{
+  background: bisque;
+  text-align: left;
+}
+
+main > div.columns.berichten > div > div.select.is-multiple > select{
+  width: 100%;
+}
+
+main > div.columns.berichten > div > div.is-four-fifths{
+  text-align: center;
+  background: antiquewhite;
+  margin: 1%;
+}
+
+main > div.columns.berichten > div.http > div.input {
+  border-radius: 25px;
+  background: white;
+  height: 50px
+}
+
+main > div.columns.berichten >  div.is-four-fifths > div.http > div.input > div.button{
+  border-radius: 25px;
+  background: whitesmoke;
+  height: 50px
+}
+
+main > div.columns.berichten > div.is-four-fifths > div.messagescreen{
+  background: aliceblue;
+  margin: 1%;
+  height: 86%;
+  min-height: 250px;
+  width: 98%;
+}
+
+main > div.columns.berichten > div.is-four-fifths > div.htpp > * {
+  border-radius: 25px;
+  margin: 0.5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: auto;
+  box-shadow: none;
+}
+
+/*Profiel CSS*/
+/*Door Melvin*/
+.profielNav2{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.gegevensTabelProfielOverzichtTwee{
+  padding-top: 5%;
+}
+
+.profielTitel{
+  padding-left: 1%;
+}
+
+.profielContainer{
+  margin-right: 5%;
+  margin-bottom: 10%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*Einde Profiel CSS*/ 
+
+/*Profielaanpassen CSS*/
+/*Door Melvin*/
+.profielaanpassen{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.gegevensannulerenbutton{
+  margin-right: 16%;
+}
+
+/*Einde Profielaanpassen CSS*/
+
+/*Registratie CSS*/
+/*Door Max*/
+.container.is-fluid{
+  margin-top: -.75em;
+}
+main{
+  margin-top: -.75em;
+}
+.emailbevestiging{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.hoofdgegevens{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.verkoperControle{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/*Einde Registratie CSS*/
+
+/*@media queries hier niet meer dan 3 die gelden voor in de breedte*/
+/*Door Verdi*/
+@media screen and (max-width:769px) {
+  header > div.columns.level > div > form{
+   margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  header > div.columns.level > div{
+    margin-left: 18%;
+  }
+
+  ol.flickity-page-dots {
+    display: none;
+  }
+}
+
+/* mijnVeilingen & mijnBiedingen css @Wesley */
+
+.toppadding {
+  margin-top: 3%;
+}
+
+.leftpadding {
+  margin-left: 65%;
+}
+
+.bottompadding {
+  margin-bottom: -5%;
+}
+
+/* einde mijnVeilingen & mijnBiedingen css */
+
+/* Nieuwe veiling aanmaken 
+    Gemaakt door Teun en Jesse  */
+.infoblockVeilingAanmaak {
+  background-color: rgba(0, 0, 0, 0.15);
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+/*        Inlog 
+    Gemaakt door Teun  */
+.infoblockInlog {
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+main > div.columns.inlog{
+  margin-top: -.75rem;
+}
+
+/* Over ons
+  Gemaakt door Wesley */
+
+.overons {
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 5%;
+  margin-right: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+}
+
+.margeLeft {
+  margin-left: 9%;
+}
+
+main > div.columns.over-ons{
+  margin-top: -.75rem;
+}
+
+/*Single veilings item CSS*/
+/*Gemaakt door Verdi*/
+ol.flickity-page-dots {
+  margin-bottom: 3%;
+}
+.gallery.js-flickity {
+  padding-bottom: 30px;
+  margin-bottom: 2%;
+}
+body > main.extra-space.container.is-fluid.content{
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/* achtergrond kleur voor Items
+    gemaakt door Wesley */
+.achtergrondkleur{
+  background-color: rgba(0, 0, 0, 0.15);
+}
+/*Single veilings item CSS */
+/*      Carousel 
+  Teun, Melvin en Jesse */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #FFE1BE;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background-color: none;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+.mobiele-searchbar {
+  height: 45px;
+  width: 250%;
+  border-radius: 50px;
+  padding-left: 2%;
+  margin-left: -20%;
+
+}
+
+.navbar-burger {
+  margin-left: 400%;
+  margin-top: -5%;
+}
+
